@@ -18,6 +18,26 @@ const Header = () => {
               confidence. Your Next Adventure Awaits
             </h5>
           </div>
+          <div className="mt-4 flex gap-4 bg-slate-400/20 w-[400px] px-3 py-2 rounded-full backdrop-blur-lg">
+            <span className="flex">
+              <img
+                src="/user_1.jpg"
+                className="w-[30px] h-[30px] rounded-full"
+                alt=""
+              />
+              <img
+                src="/user_2.jpg"
+                className="w-[30px] h-[30px] rounded-full -ml-3"
+                alt=""
+              />
+              <img
+                src="/user_3.jpg"
+                className="w-[30px] h-[30px] rounded-full -ml-3"
+                alt=""
+              />
+            </span>
+            <h5 className="font-semibold">Over 2.5 million happy customers</h5>
+          </div>
         </div>
       </header>
     </>
