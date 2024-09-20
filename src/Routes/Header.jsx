@@ -38,14 +38,58 @@ const Header = () => {
             </span>
             <h5 className="font-semibold">Over 2.5 million happy customers</h5>
           </div>
-          <div className="mt-8 bg-slate-200/20 p-6 backdrop-blur-lg border rounded-md">
+          <div className="mt-8 bg-slate-200/20 p-6 backdrop-blur-lg border rounded-3xl">
             <div className="flex items-center gap-[70px] text-white">
               <h5 className="text-gray-400 font-semibold">Flights</h5>
               <h5 className="font-semibold">Stays</h5>
               <h5 className="text-gray-400 font-semibold">Tours</h5>
               <h5 className="text-gray-400 font-semibold">Rides</h5>
             </div>
-            <div className="bg-gray-400 w-full h-[2px] mt-4"></div>
+            <div className="bg-gray-400 w-full h-[2px] mt-4 mb-4"></div>
+            <div className="flex items-center gap-[70px] text-white">
+              <div>
+                <h5 className="text-white text-sm">Destination</h5>
+                <input
+                  type="text"
+                  className="bg-transparent border border-slate-200/20 p-2 rounded-md mt-2 text-200/20 text-xs"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div>
+                <h5 className="text-white text-sm">Check in</h5>
+                <input
+                  type="date"
+                  className="bg-transparent border border-slate-200/20 p-2 rounded-md mt-2 text-200/20 text-xs"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div>
+                <h5 className="text-white text-sm">Check out</h5>
+                <input
+                  type="date"
+                  className="bg-transparent border border-slate-200/20 p-2 rounded-md mt-2 text-200/20 text-xs"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div>
+                <h5 className="text-white text-sm">Guest</h5>
+                <select className="bg-transparent border border-slate-200/20 p-2 rounded-md mt-2 text-200/20 text-xs">
+                  <option value="1">Select number</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <div>
+                <h5 className="text-white text-sm">Rooms</h5>
+                <select className="bg-transparent border border-slate-200/20 p-2 rounded-md mt-2 text-200/20 text-xs">
+                  <option value="1">Select number</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <div>
+              <h5 className="text-white text-sm invisible">Rooms</h5>
+                <button>Book trip</button>
+              </div>
+            </div>
           </div>
         </div>
       </header>
