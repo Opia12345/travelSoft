@@ -38,6 +38,15 @@ const Header = () => {
             </span>
             <h5 className="font-semibold">Over 2.5 million happy customers</h5>
           </div>
+          <div className="mt-8 bg-slate-200/20 p-6 backdrop-blur-lg border rounded-md">
+            <div className="flex items-center gap-[70px] text-white">
+              <h5 className="text-gray-400 font-semibold">Flights</h5>
+              <h5 className="font-semibold">Stays</h5>
+              <h5 className="text-gray-400 font-semibold">Tours</h5>
+              <h5 className="text-gray-400 font-semibold">Rides</h5>
+            </div>
+            <div className="bg-gray-400 w-full h-[2px] mt-4"></div>
+          </div>
         </div>
       </header>
     </>
