@@ -86,8 +86,10 @@ const Header = () => {
                 </select>
               </div>
               <div>
-              <h5 className="text-white text-sm invisible">Rooms</h5>
-                <button>Book trip</button>
+                <h5 className="text-white text-sm invisible">Rooms</h5>
+                <button className="bg-gradient-to-b from-blue-800 to-blue-950 text-white px-4 py-2 rounded-md">
+                  Book trip
+                </button>
               </div>
             </div>
           </div>
