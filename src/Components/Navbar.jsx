@@ -5,6 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
+      {/* THE NAVIGATION BAR */}
       <nav className="flex justify-around px-6 py-6 text-white">
         <div className="logo">
           <h5 className="font-black text-lg font-mono">TravelSoft</h5>
