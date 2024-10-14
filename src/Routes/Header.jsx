@@ -8,7 +8,6 @@ const Header = () => {
       <header className="bg-[url('/hero.jpg')] h-screen w-full bg-cover bg-no-repeat bg-center bg-black/50 bg-blend-darken">
         {/* NAVIGATION BAR */}
         <Navbar />
-        {/* THE NAVIGATION BAR */}
         <div className="text-white p-[130px]">
           <div className="font-black text-7xl">
             <h1>Plan.</h1>
